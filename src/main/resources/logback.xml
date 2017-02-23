@@ -7,9 +7,9 @@
 	</appender>
 	
 	<appender name="rollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>/logs/logstash.log</file>
+		<file>/logs/spring-boot-mybatis.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<fileNamePattern>logstash.%d{yyyy-MM-dd}.log</fileNamePattern>
+			<fileNamePattern>spring-boot-mybatis.%d{yyyy-MM-dd}.log</fileNamePattern>
 		</rollingPolicy>
 		<encoder>
 			<pattern>[%thread] %date [%-5level] - %logger : %msg%n</pattern>
